@@ -12,6 +12,9 @@
     <link rel="manifest" href="/site.webmanifest">
     <!-- link to a stylesheet -->
     <link rel="stylesheet" href="css/style.css">
+    <!-- load javascript -->
+    <!-- added defer to wait until everything is loaded -->
+    <script src="js/script.js" defer></script>
 </head>
 <body>
     <header class="header">
@@ -64,7 +67,7 @@
 
     <footer class="footer">
         <p>
-            <span class="norwap">Copyright &copy; </span>
+            <span class="norwap">Copyright &copy; <time datetime="" id="year"></time></span>
             <span class="nowrap">Little Taco Shop</span>
         </p>
     </footer>
