@@ -53,7 +53,7 @@ input, button, textarea{
 /* ||UTILITY */
 .offscreen{
     position: absolute;
-    left: 100000px;
+    left: -1000px;
 }
 .nowrap{
     white-space: nowrap;
@@ -170,6 +170,7 @@ a:active{
     text-align: center;
 }
 
+
 /*|| MAIN */
 .main{
     padding: var(--PADDING-TOPBOTTOM) var(--PADDING-SIDE);
@@ -185,4 +186,39 @@ a:active{
     min-height: calc(100vh -20rem);
 }
 
+
 /*|| ABOUT*/
+.about__trivia{
+    margin: var(--MARGIN);
+}
+.about__trivia-answer{
+    margin-top: 1em;
+}
+
+
+/* CONTACT */
+.contact__h2{
+    margin: 0;
+}
+.contact__form-fieldset{
+    border: none;
+}
+.contact__p{
+    margin: 1em 0;
+}
+.contact__form-label{
+    display: block;
+    font-weight: bold;
+}
+.contact__form-input, .contact__form-textarea{
+    padding: 0.5em;
+    border-radius: 15px;
+    border: 3px solid;
+    width: 100%;
+}
+.contact__form-button{
+    padding: 0.5em;
+    border-radius: 15px;
+    background-color: var(--HIGHLIGHT-COLOR);
+    color: var(--HEADER-COLOR);
+}
